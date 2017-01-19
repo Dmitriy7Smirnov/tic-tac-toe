@@ -1,0 +1,43 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="lesson27:war exploded">
+    <output-path>$PROJECT_DIR$/target/test</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="lesson27" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:3.1.0" />
+          <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
+          <element id="library" level="project" name="Maven: org.webjars:jquery:2.1.4" />
+          <element id="library" level="project" name="Maven: org.apache.maven.wagon:wagon-file:2.10" />
+          <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.6" />
+          <element id="library" level="project" name="Maven: org.apache.maven.wagon:wagon-provider-api:2.10" />
+          <element id="library" level="project" name="Maven: org.apache.maven.plugins:maven-deploy-plugin:2.8.2" />
+          <element id="library" level="project" name="Maven: org.apache.maven:maven-plugin-api:2.2.1" />
+          <element id="library" level="project" name="Maven: org.apache.maven:maven-project:2.2.1" />
+          <element id="library" level="project" name="Maven: org.apache.maven:maven-settings:2.2.1" />
+          <element id="library" level="project" name="Maven: org.apache.maven:maven-profile:2.2.1" />
+          <element id="library" level="project" name="Maven: org.apache.maven:maven-artifact-manager:2.2.1" />
+          <element id="library" level="project" name="Maven: org.apache.maven:maven-repository-metadata:2.2.1" />
+          <element id="library" level="project" name="Maven: backport-util-concurrent:backport-util-concurrent:3.1" />
+          <element id="library" level="project" name="Maven: org.apache.maven:maven-plugin-registry:2.2.1" />
+          <element id="library" level="project" name="Maven: org.codehaus.plexus:plexus-interpolation:1.11" />
+          <element id="library" level="project" name="Maven: org.codehaus.plexus:plexus-container-default:1.0-alpha-9-stable-1" />
+          <element id="library" level="project" name="Maven: junit:junit:3.8.1" />
+          <element id="library" level="project" name="Maven: classworlds:classworlds:1.1-alpha-2" />
+          <element id="library" level="project" name="Maven: org.apache.maven:maven-model:2.2.1" />
+          <element id="library" level="project" name="Maven: org.apache.maven:maven-artifact:2.2.1" />
+          <element id="library" level="project" name="Maven: org.codehaus.plexus:plexus-utils:3.0.15" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.6.3" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.6.0" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.6.3" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/test/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="lesson27/web/Web" />
+    </root>
+  </artifact>
+</component>
