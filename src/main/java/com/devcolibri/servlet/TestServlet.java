@@ -108,7 +108,7 @@ public class TestServlet extends HttpServlet {
 
             jsonData.setId1(id);
             jsonData.setSymbol1("X");
-            jsonData.setMsg("X won!");
+            jsonData.setMsg("Congratulation, X won!");
             jsonData.setisWon(true);
             out.print(objectMapper.writeValueAsString(jsonData));
             return;
